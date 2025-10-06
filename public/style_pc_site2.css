@@ -1,0 +1,49 @@
+         .back-link {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-decoration: none;
+         }
+         .back-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #8b530a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+         }
+          .golu {
+            text-align: center;
+            color: #F5F5DC;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin: 5px 0;
+        }
+              button { 
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #8b530a;
+            color: white;
+            border:  none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        button:hover { 
+            background-color: #d49b52;
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+                   body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f56f42;
+                    .resim1 {
+             width: 300px;
+             height: 300px;
+        }
+           }
+

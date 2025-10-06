@@ -1,0 +1,84 @@
+        .marquee { 
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-align: center;
+        }
+        .marquee span { 
+            display: inline-block;
+            transform: translateX(100%);
+            animation: slideToCenter 3s forwards;
+        }
+        @keyframes slideToCenter {
+            0% {transform: translateX(100%); }
+            100% {transform: translateX(0); }
+        }
+        .golu {
+            text-align: center;
+            color: #F5F5DC;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin: 5px 0;
+            font-weight: bold;
+        }
+        body { 
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            background-size: 400% 400%;
+            animation: gradientBG 6s ease infinite;
+        }
+        @keyframes gradientBG {
+            0% {background-position: 0% 50%; }
+            50% {background-position: 100% 50%; }
+            100% { background-position: 0% 50%;}
+        }
+        button { 
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #8b530a;
+            color: white;
+            border:  none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        button:hover { 
+            background-color: #d49b52;
+            transform: scale(1.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .back-link {
+            position: absolute;
+            top:  20px;
+            right: 20px;
+            text-decoration: none;
+        }
+        .back-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #8b530a;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+        background-color: #d49b52;
+        transform: scale(1.1);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .image-row { display: flex;
+            justify-content: space-between;
+            margin: 10px 20px;
+        }
+        .image-row img {
+            width: 270px;
+            height: 170px;
+            object-fit: cover;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
